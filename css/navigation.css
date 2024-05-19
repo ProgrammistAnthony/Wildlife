@@ -1,0 +1,127 @@
+.aside__content {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.34) 0%, rgba(0, 0, 0, 0.87) 100%);
+  -webkit-backdrop-filter: blur(9.1547956467px);
+          backdrop-filter: blur(9.1547956467px);
+  position: fixed;
+  left: 0;
+  max-width: 92px;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Roboto Condensed", sans-serif;
+  z-index: 1;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 75px;
+}
+.icon__user {
+  margin-top: 43px;
+}
+.icon:hover path {
+  stroke: #32D74B;
+}
+.icon:active path {
+  stroke: #32D74B;
+}
+.icon__burger {
+  border-bottom: 0.5px solid #fff;
+  height: 40px;
+  margin-top: 60px;
+  width: 32px;
+}
+.icon__burger:hover {
+  border-bottom: 0.5px solid #32D74B;
+}
+.icon__burger:active {
+  border-bottom: 0.5px solid #32D74B;
+}
+.icon__burger:hover line {
+  stroke: #32D74B;
+}
+.icon__burger:active line {
+  stroke: #32D74B;
+}
+
+.btn {
+  width: 91px;
+  height: 91px;
+  background: #2C2C2E;
+  color: #fff;
+  font-size: 36px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+.btn:hover {
+  border: 3px solid #32D74B;
+  color: #32D74B;
+}
+.btn:active {
+  box-shadow: 0 2px 0 0 inset #464646;
+}
+
+.content__icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons_2 {
+  background: #24632E;
+}
+
+.nav__data {
+  color: #FFF;
+  width: 58px;
+  height: 41px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.day {
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: -1.54px;
+}
+
+.slash {
+  font-size: 35px;
+  letter-spacing: -1.939px;
+}
+
+.mouth {
+  font-size: 17px;
+  letter-spacing: -0.935px;
+}
+
+@media (max-width: 560px) {
+  .logo {
+    left: calc(40% - var(--logo-size) / 2);
+  }
+  .logo__text {
+    left: calc(51% - var(--logo-size) / 2);
+  }
+  .aside__content {
+    max-width: 50px;
+  }
+  .btn {
+    width: 50px;
+  }
+  .day {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=navigation.css.map */

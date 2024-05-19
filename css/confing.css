@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+}
+
+:root {
+  --index: calc(1vw + 1vh);
+  --transition: 1s cubic-bezier (.050, .500, 0, 1);
+  --logo-size: calc(var(--index) * 7.8);
+}/*# sourceMappingURL=confing.css.map */
